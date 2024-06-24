@@ -1,0 +1,6 @@
+artifact_location: file:///Users/user/Ai-Study/MLflow-demo/MLFlow-demo/mlruns/552389430852384798
+creation_time: 1719102003253
+experiment_id: '552389430852384798'
+last_update_time: 1719102003253
+lifecycle_stage: active
+name: Boston-HousePrice-predict

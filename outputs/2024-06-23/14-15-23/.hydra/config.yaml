@@ -1,0 +1,72 @@
+model:
+  model: LinearRegression
+  hyperparameters:
+    classifier__fit_intercept:
+    - true
+    - false
+    classifier__copy_X:
+    - true
+    - false
+    classifier__n_jobs:
+    - None
+    - -1
+GridSearchCV:
+  scoring: neg_mean_squared_error
+  cv: 10
+  n_jobs: 4
+mlflow:
+  experiment_id: '593623705617405727'
+models:
+  LinearRegression:
+    module: sklearn.linear_model
+    class: LinearRegression
+    hyperparameters:
+      fit_intercept:
+      - true
+      - false
+      copy_X:
+      - true
+      - false
+      n_jobs:
+      - None
+      - -1
+  Ridge:
+    module: sklearn.linear_model
+    class: Ridge
+    hyperparameters:
+      alpha:
+      - 0.1
+      - 1.0
+      - 10.0
+  Lasso:
+    module: sklearn.linear_model
+    class: Lasso
+    hyperparameters:
+      alpha:
+      - 0.1
+      - 0.5
+      - 1.0
+  SVR:
+    module: sklearn.svm
+    class: SVR
+    hyperparameters:
+      C:
+      - 0.1
+      - 1.0
+      - 10.0
+      kernel:
+      - linear
+      - poly
+      - rbf
+  RandomForest:
+    module: sklearn.ensemble
+    class: RandomForestRegressor
+    hyperparameters:
+      n_estimators:
+      - 50
+      - 100
+      - 200
+      max_depth:
+      - None
+      - 10
+      - 20
