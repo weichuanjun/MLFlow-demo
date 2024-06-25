@@ -1,6 +1,0 @@
-model: LinearRegression
-
-hyperparameters:
-  classifier__fit_intercept: [True, False]
-  classifier__copy_X: [True, False]
-  classifier__n_jobs: [None, -1]

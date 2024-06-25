@@ -1,5 +1,0 @@
-model: SVR
-
-hyperparameters:
-  classifier__C: [0.1, 1.0, 10.0]
-  classifier__kernel: ['linear', 'poly', 'rbf']

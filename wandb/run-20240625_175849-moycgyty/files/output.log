@@ -1,0 +1,5 @@
+The best parameter models: {'Ridge': Ridge(alpha=10.0), 'Lasso': Lasso(alpha=0.1), 'SVR': SVR(C=10.0), 'RandomForest': RandomForestRegressor(n_estimators=200)}
+Ridge: MSE = 24.495845619667406, R2 = 0.6659677905050341
+Lasso: MSE = 25.656739367167685, R2 = 0.6501375183238985
+SVR: MSE = 12.738202847389026, R2 = 0.8262982993862371
+RandomForest: MSE = 8.398433306372553, R2 = 0.8854766119455227

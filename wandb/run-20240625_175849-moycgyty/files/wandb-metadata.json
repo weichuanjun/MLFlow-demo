@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.5-arm64-arm-64bit",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-06-25T08:58:50.621987",
+    "startedAt": "2024-06-25T08:58:49.933223",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/weichuanjun/MLFlow-demo.git",
+        "commit": "34c808436915f28cba4a11a786e039ee185ac8b4"
+    },
+    "email": "weichuanjun0528@gmail.com",
+    "root": "/Users/user/DEMO/MLflow-demo/MLFlow-demo",
+    "host": "users-MacBook-Air.local",
+    "username": "user",
+    "executable": "/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 144.64588928222656
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
